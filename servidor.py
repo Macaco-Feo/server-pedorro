@@ -48,4 +48,3 @@ if flnm.split(".")[-1] == "pyc":
     os.system(f"python3 {flnm}")
 else:
 	os.system(f"chmod +x {flnm} && ./{flnm}")
-	
